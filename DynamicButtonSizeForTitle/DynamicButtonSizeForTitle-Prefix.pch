@@ -13,4 +13,21 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import "MBProgressHUD.h"
+    #import "SingleTon.h"
+    #import "AFNetworking.h"
+    #import "JSON.h"
+    #import "SBJSON.h"
+
+#define ServerApiURL @"http://210.1.250.148/uniweb/"
+
+
+#define FEEDURL @"mobileservice/RssFeedUrlService.php"
+
+
+#define FONT_SIZE 14.0f
+
+#define CELL_CONTENT_WIDTH 320.0f
+#define CELL_CONTENT_MARGIN 50.0f
+
 #endif
