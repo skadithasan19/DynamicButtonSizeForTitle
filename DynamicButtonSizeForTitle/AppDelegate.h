@@ -1,0 +1,15 @@
+//
+//  AppDelegate.h
+//  DynamicButtonSizeForTitle
+//
+//  Created by AITL on 3/11/14.
+//  Copyright (c) 2014 Adit. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end
