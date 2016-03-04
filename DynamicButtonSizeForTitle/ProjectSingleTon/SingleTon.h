@@ -14,10 +14,6 @@
 
 @property(nonatomic,retain)NSArray *FeedContentArray;
 
-
-
-
-
 + (SingleTon *) instance;
 
 @end

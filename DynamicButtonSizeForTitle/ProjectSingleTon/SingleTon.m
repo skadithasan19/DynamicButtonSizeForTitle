@@ -38,8 +38,7 @@
     }
     
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_4_0
-    // Allocates once with Grand Central Dispatch (GCD) routine.
-    // It's thread safe.
+ 
     static dispatch_once_t safer;
     dispatch_once(&safer, ^(void)
                   {
