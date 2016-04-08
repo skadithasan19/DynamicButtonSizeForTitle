@@ -7,28 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RSSFeedClass.h"
-#import "FeedView.h"
-#import "MWFeedParser.h"
-@interface ViewController : UIViewController<RSSFeedDelegate,MWFeedParserDelegate>
-{
 
-    __weak IBOutlet UIScrollView *MainScrollView;
-    __weak IBOutlet UIScrollView *SubDetailScrollView;
-    float buttonSize;
-    
-    
-    
-    MWFeedParser *feedParser;
+@interface ViewController : UIViewController
 
-	
-	// Displaying
-	NSArray *itemsToDisplay;
-
-    
-}
-
-
+@property (weak, nonatomic) IBOutlet UIScrollView *mainScrollView;
 @property(nonatomic,strong)	NSMutableArray *parsedItems;
 
 @end

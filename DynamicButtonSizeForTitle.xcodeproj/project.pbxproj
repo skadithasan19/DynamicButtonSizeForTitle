@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C4C02961CB7614C0027B869 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4C02951CB7614C0027B869 /* Helper.m */; };
 		C845905F18CEE06A00E1219E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C845905E18CEE06A00E1219E /* Foundation.framework */; };
 		C845906118CEE06A00E1219E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C845906018CEE06A00E1219E /* CoreGraphics.framework */; };
 		C845906318CEE06A00E1219E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C845906218CEE06A00E1219E /* UIKit.framework */; };
@@ -22,16 +23,6 @@
 		C845908318CEE06A00E1219E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C845906218CEE06A00E1219E /* UIKit.framework */; };
 		C845908B18CEE06A00E1219E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C845908918CEE06A00E1219E /* InfoPlist.strings */; };
 		C845908D18CEE06A00E1219E /* DynamicButtonSizeForTitleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C845908C18CEE06A00E1219E /* DynamicButtonSizeForTitleTests.m */; };
-		C84590B418CEE2F700E1219E /* RSSFeedClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C84590B218CEE2F700E1219E /* RSSFeedClass.m */; };
-		C84590B518CEE2F700E1219E /* RSSFeedClass.xib in Resources */ = {isa = PBXBuildFile; fileRef = C84590B318CEE2F700E1219E /* RSSFeedClass.xib */; };
-		C84590F518CEE36D00E1219E /* SingleTon.m in Sources */ = {isa = PBXBuildFile; fileRef = C84590F218CEE36D00E1219E /* SingleTon.m */; };
-		C845910418CF04DC00E1219E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C845910318CF04DC00E1219E /* Security.framework */; };
-		C845910618CF04F200E1219E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C845910518CF04F200E1219E /* CFNetwork.framework */; };
-		C845910818CF04FB00E1219E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C845910718CF04FB00E1219E /* SystemConfiguration.framework */; };
-		C845910A18CF050100E1219E /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C845910918CF050100E1219E /* libz.1.2.5.dylib */; };
-		C845910C18CF050B00E1219E /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C845910B18CF050B00E1219E /* libicucore.dylib */; };
-		C845911018CF082B00E1219E /* FeedView.m in Sources */ = {isa = PBXBuildFile; fileRef = C845910E18CF082B00E1219E /* FeedView.m */; };
-		C845911118CF082B00E1219E /* FeedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C845910F18CF082B00E1219E /* FeedView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C4C02941CB7614C0027B869 /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		0C4C02951CB7614C0027B869 /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
 		C845905B18CEE06A00E1219E /* DynamicButtonSizeForTitle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicButtonSizeForTitle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C845905E18CEE06A00E1219E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C845906018CEE06A00E1219E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,19 +58,6 @@
 		C845908818CEE06A00E1219E /* DynamicButtonSizeForTitleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DynamicButtonSizeForTitleTests-Info.plist"; sourceTree = "<group>"; };
 		C845908A18CEE06A00E1219E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C845908C18CEE06A00E1219E /* DynamicButtonSizeForTitleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicButtonSizeForTitleTests.m; sourceTree = "<group>"; };
-		C84590B118CEE2F700E1219E /* RSSFeedClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSFeedClass.h; sourceTree = "<group>"; };
-		C84590B218CEE2F700E1219E /* RSSFeedClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSFeedClass.m; sourceTree = "<group>"; };
-		C84590B318CEE2F700E1219E /* RSSFeedClass.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSSFeedClass.xib; sourceTree = "<group>"; };
-		C84590F118CEE36D00E1219E /* SingleTon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleTon.h; sourceTree = "<group>"; };
-		C84590F218CEE36D00E1219E /* SingleTon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleTon.m; sourceTree = "<group>"; };
-		C845910318CF04DC00E1219E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		C845910518CF04F200E1219E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		C845910718CF04FB00E1219E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		C845910918CF050100E1219E /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
-		C845910B18CF050B00E1219E /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
-		C845910D18CF082B00E1219E /* FeedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedView.h; sourceTree = "<group>"; };
-		C845910E18CF082B00E1219E /* FeedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedView.m; sourceTree = "<group>"; };
-		C845910F18CF082B00E1219E /* FeedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeedView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C845910C18CF050B00E1219E /* libicucore.dylib in Frameworks */,
-				C845910A18CF050100E1219E /* libz.1.2.5.dylib in Frameworks */,
-				C845910818CF04FB00E1219E /* SystemConfiguration.framework in Frameworks */,
-				C845910618CF04F200E1219E /* CFNetwork.framework in Frameworks */,
-				C845910418CF04DC00E1219E /* Security.framework in Frameworks */,
 				C845906118CEE06A00E1219E /* CoreGraphics.framework in Frameworks */,
 				C845906318CEE06A00E1219E /* UIKit.framework in Frameworks */,
 				C845905F18CEE06A00E1219E /* Foundation.framework in Frameworks */,
@@ -109,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C4C02931CB761100027B869 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0C4C02941CB7614C0027B869 /* Helper.h */,
+				0C4C02951CB7614C0027B869 /* Helper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		C845905218CEE06A00E1219E = {
 			isa = PBXGroup;
 			children = (
@@ -131,11 +115,6 @@
 		C845905D18CEE06A00E1219E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C845910B18CF050B00E1219E /* libicucore.dylib */,
-				C845910918CF050100E1219E /* libz.1.2.5.dylib */,
-				C845910718CF04FB00E1219E /* SystemConfiguration.framework */,
-				C845910518CF04F200E1219E /* CFNetwork.framework */,
-				C845910318CF04DC00E1219E /* Security.framework */,
 				C845905E18CEE06A00E1219E /* Foundation.framework */,
 				C845906018CEE06A00E1219E /* CoreGraphics.framework */,
 				C845906218CEE06A00E1219E /* UIKit.framework */,
@@ -147,19 +126,13 @@
 		C845906418CEE06A00E1219E /* DynamicButtonSizeForTitle */ = {
 			isa = PBXGroup;
 			children = (
-				C84590EC18CEE36D00E1219E /* ProjectSingleTon */,
+				0C4C02931CB761100027B869 /* Helper */,
 				C845906D18CEE06A00E1219E /* AppDelegate.h */,
 				C845906E18CEE06A00E1219E /* AppDelegate.m */,
 				C845907018CEE06A00E1219E /* Main_iPhone.storyboard */,
 				C845907318CEE06A00E1219E /* Main_iPad.storyboard */,
 				C845907618CEE06A00E1219E /* ViewController.h */,
 				C845907718CEE06A00E1219E /* ViewController.m */,
-				C84590B118CEE2F700E1219E /* RSSFeedClass.h */,
-				C84590B218CEE2F700E1219E /* RSSFeedClass.m */,
-				C84590B318CEE2F700E1219E /* RSSFeedClass.xib */,
-				C845910D18CF082B00E1219E /* FeedView.h */,
-				C845910E18CF082B00E1219E /* FeedView.m */,
-				C845910F18CF082B00E1219E /* FeedView.xib */,
 				C845907918CEE06A00E1219E /* Images.xcassets */,
 				C845906518CEE06A00E1219E /* Supporting Files */,
 			);
@@ -193,15 +166,6 @@
 				C845908918CEE06A00E1219E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C84590EC18CEE36D00E1219E /* ProjectSingleTon */ = {
-			isa = PBXGroup;
-			children = (
-				C84590F118CEE36D00E1219E /* SingleTon.h */,
-				C84590F218CEE36D00E1219E /* SingleTon.m */,
-			);
-			path = ProjectSingleTon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,8 +246,6 @@
 			files = (
 				C845907518CEE06A00E1219E /* Main_iPad.storyboard in Resources */,
 				C845907A18CEE06A00E1219E /* Images.xcassets in Resources */,
-				C845911118CF082B00E1219E /* FeedView.xib in Resources */,
-				C84590B518CEE2F700E1219E /* RSSFeedClass.xib in Resources */,
 				C845907218CEE06A00E1219E /* Main_iPhone.storyboard in Resources */,
 				C845906918CEE06A00E1219E /* InfoPlist.strings in Resources */,
 			);
@@ -306,10 +268,8 @@
 			files = (
 				C845907818CEE06A00E1219E /* ViewController.m in Sources */,
 				C845906F18CEE06A00E1219E /* AppDelegate.m in Sources */,
-				C84590B418CEE2F700E1219E /* RSSFeedClass.m in Sources */,
-				C845911018CF082B00E1219E /* FeedView.m in Sources */,
 				C845906B18CEE06A00E1219E /* main.m in Sources */,
-				C84590F518CEE36D00E1219E /* SingleTon.m in Sources */,
+				0C4C02961CB7614C0027B869 /* Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -14,43 +14,28 @@
                         <viewControllerLayoutGuide type="bottom" id="UN6-pb-6Cd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B2I-DU-iPu">
-                                <rect key="frame" x="0.0" y="20" width="768" height="49"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="49" id="vA7-Wo-CSK"/>
-                                </constraints>
-                            </scrollView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hie-d6-DBY">
-                                <rect key="frame" x="0.0" y="77" width="768" height="406"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vv5-Pu-kpM">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="B2I-DU-iPu" secondAttribute="trailing" id="7mT-ze-RfR"/>
-                            <constraint firstItem="Hie-d6-DBY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="SSu-kg-FGo"/>
-                            <constraint firstItem="UN6-pb-6Cd" firstAttribute="top" secondItem="Hie-d6-DBY" secondAttribute="bottom" constant="541" id="UOS-mW-Y8F"/>
-                            <constraint firstItem="Hie-d6-DBY" firstAttribute="top" secondItem="B2I-DU-iPu" secondAttribute="bottom" constant="8" id="dCz-KP-paf"/>
-                            <constraint firstAttribute="trailing" secondItem="Hie-d6-DBY" secondAttribute="trailing" id="f5V-6q-rIW"/>
-                            <constraint firstItem="B2I-DU-iPu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="frT-ub-B9v"/>
-                            <constraint firstItem="B2I-DU-iPu" firstAttribute="top" secondItem="cil-mA-5d4" secondAttribute="bottom" id="g1J-Xy-d2P"/>
+                            <constraint firstAttribute="trailing" secondItem="Vv5-Pu-kpM" secondAttribute="trailing" id="8VQ-LR-Lw2"/>
+                            <constraint firstItem="Vv5-Pu-kpM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="DFn-HA-c3A"/>
+                            <constraint firstItem="Vv5-Pu-kpM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="VZG-3t-76V"/>
+                            <constraint firstItem="UN6-pb-6Cd" firstAttribute="top" secondItem="Vv5-Pu-kpM" secondAttribute="bottom" id="Xf8-ud-TF8"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="MainScrollView" destination="B2I-DU-iPu" id="1pW-hb-wMo"/>
-                        <outlet property="SubDetailScrollView" destination="Hie-d6-DBY" id="Bkx-oc-XAk"/>
+                        <outlet property="mainScrollView" destination="Vv5-Pu-kpM" id="kqZ-Lf-24a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-164" y="-148"/>
+            <point key="canvasLocation" x="-234.375" y="-130.078125"/>
         </scene>
     </scenes>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination"/>
-    </simulatedMetricsContainer>
 </document>
